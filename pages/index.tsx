@@ -9,7 +9,7 @@ type ChainProps = {
 
 const Home = (props: ChainProps) => {
   // contract initialization.
-  const contractAdress = "0x0eB896E118A2215Cc92c9B3b230fE6D2ff77BED4";
+  const contractAdress = "0xb229a96e1e7056223Ce891ae26ee8a2fD0dDD76F";
   const { contract: nftDrop} = useContract(contractAdress);
   
   // contract metadata and supply.
